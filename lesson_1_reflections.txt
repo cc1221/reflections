@@ -1,0 +1,47 @@
+1. How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+-号代表那行删除了内容，+号代表那行增加了东西
+---
+
+2. How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?从长远来看，如何更简单的访问文件的整个历史，能让你成为一个更有效率的程序员
+从长远来看，能轻松访问文件的整个历史记录将如何提高编程者的效率？
+
+在出bug难以调的时候可以找历史版本来核对，或者用回历史版本
+---
+
+3. What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？
+
+ git手动提交可以至提交你想要的版本不会重复提交；
+ 自动保存的话就可以防止意外出现崩溃等情况，不会丢失
+ Google docs有自己的编辑器，而编程不需要，而且不能查看离线记录
+ ---
+
+4. Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+为何你认为一些版本控制系统（例如 Git）允许在一次提交中保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？
+
+git是版本控制，是一次提交一个版本为单位，所以可是多个文件打包一起上传，这样在一个逻辑修改中，git可以修改repository中的多个文件
+google docs是以文件为单位的文档管理系统
+
+---
+
+5. How can you use the commands git log and git diff to view the history of files?
+如何使用命令 git log 和 git diff 来查看文件的历史记录？
+
+cd进入文件目录后，git log读取所有commits日志，然后获取前后两个commits的ID，git diff id1 id2
+ ---
+
+6. How might using version control make you more confident to make changes that
+could break something?
+使用版本控制，如何让你更有信心进行有可能会造成破坏的更改？
+
+ 有了版本控制如果有错的话还可以找回历史版本来查bug，先git checkout找出不对的commit，然后再用git diff查具体的问题
+ ---
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+我想试着用git管理我的下一个项目
