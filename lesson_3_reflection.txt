@@ -4,6 +4,7 @@ local?
 
 想与他人协作时会使用远程代码库
 
+
 2. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 为何你希望始终手动地拉取更改，而不是让 Git 自动与你的远程版本库保持同步？
@@ -20,10 +21,13 @@ Fork是在Github上将别人的代码库clone到你Github上的代码库，还�
 库的时候就可以使用fork
 分支只是用来区分和归类commit
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
 
-    Fill in your answer here
+4. What is the benefit of having a copy of the last known state of the remote
+stored locally?
+拥有远程分支的上次已知状态的副本（存储在本地）有何好处？
+
+可以知晓本地于远程的差别，比如是不是落后了需要push之类的
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
