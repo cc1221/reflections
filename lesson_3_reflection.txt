@@ -29,10 +29,12 @@ stored locally?
 可以知晓本地于远程的差别，比如是不是落后了需要push之类的
 
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+如何在不使用 Git 或 GitHub 的情况下开展协同？哪种做法更容易？哪种做法更困难？
 
-    Fill in your answer here
+只能用邮件或者QQ之类的IM进行压缩打包传递和沟通。当然是git和github容易呀。
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
