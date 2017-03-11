@@ -36,7 +36,9 @@ and what would be harder?
 只能用邮件或者QQ之类的IM进行压缩打包传递和沟通。当然是git和github容易呀。
 
 
-When would you want to make changes in a separate branch rather than directly in
+6. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+何时你会想在独立的分支中而不是直接在 master 中进行更改？两种方法各有何好处？
 
-    Fill in your answer here
+当我想开发一些新东西的时候会想创建新分支，还有需要与他人协作获得反馈的时候。但是新建分支会比直接在master
+修改麻烦很多，但是更安全保险。
